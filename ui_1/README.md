@@ -1,15 +1,18 @@
 # ui_1
 
-A new Flutter application.
+Dribble Inspired TODO App Design
 
-## Getting Started
+## See how it looks
 
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- [Inspired From Here](https://dribbble.com/shots/6979043-Swipe-3-task-at-a-timeb)
+
+## Screens
+![Screenshot Not Found](https://github.com/flutterninja9/Complex-UI-in-Flutter/blob/main/ui_1/ss/ss1.png?raw=true)
+![Screenshot Not Found](https://github.com/flutterninja9/Complex-UI-in-Flutter/blob/main/ui_1/ss/ss2.png?raw=true)
 
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
