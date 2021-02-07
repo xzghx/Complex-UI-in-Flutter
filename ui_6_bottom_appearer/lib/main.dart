@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ui_6_bottom_appearer/screens/bottom_appearer_screen.dart';
+import 'screens/bottom_appearer_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Bottom Appearer',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.grey,
       ),
       home: BottomAppearerScreen(),
       debugShowCheckedModeBanner: false,
