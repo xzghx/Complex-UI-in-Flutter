@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:food_delivery_app/data/data.dart';
 import 'package:food_delivery_app/models/restaurant.dart';
+import 'package:food_delivery_app/screens/food_cart_screen.dart';
 import 'package:food_delivery_app/screens/restaurant_screen.dart';
 import 'package:food_delivery_app/widgets/rating_starts.dart';
 import 'package:food_delivery_app/widgets/recent_orders.dart';
@@ -125,7 +126,8 @@ class _HomeScreenState extends State<HomeScreen> {
               'Cart(${currentUser.cart.length})',
               style: TextStyle(color: Colors.white, fontSize: 20.0),
             ),
-            onPressed: () => null,
+            onPressed: () => Navigator.of(context)
+                .push(CupertinoPageRoute(builder: (_) => FoodCartScreen())),
           ),
         ],
       ),
